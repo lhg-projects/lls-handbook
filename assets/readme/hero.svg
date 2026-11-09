@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="380" viewBox="0 0 1200 380"
+     role="img" aria-labelledby="title desc">
+  <title id="title">LLS 工作约束手册 — 给接着干活的人或 AI 的对齐文档</title>
+  <desc id="desc">左侧是手册名与一句话价值；右侧是一张安静的约束清单卡片：命名、品牌、工程、写作、事实五项各带一个对勾，右上角一个红色动作点。</desc>
+
+  <rect width="1200" height="380" rx="26" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1200" height="380" rx="26" fill="none" stroke="#E5E0D8" stroke-width="2"/>
+  <rect x="56" y="64" width="72" height="10" fill="#FF453A"/>
+
+  <!-- Title block -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text x="56" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="18" letter-spacing="2" fill="#8A8A8A">LLS · NAMING / BRAND / ENGINEERING / WRITING</text>
+    <text x="56" y="188" font-size="58" font-weight="700" fill="#1F2328">LLS 工作约束手册</text>
+    <text x="56" y="234" font-size="26" fill="#3D444D">读完再动手，比返工便宜。</text>
+    <text x="56" y="270" font-size="21" fill="#656D76">命名、品牌、工程、写作、事实——五类约束，一份对齐。</text>
+    <line x1="56" y1="296" x2="600" y2="296" stroke="#E5E0D8" stroke-width="2"/>
+    <text x="56" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="18" fill="#656D76">给接力的人或 AI · 1 份决策记录 · 1 份变更单</text>
+  </g>
+
+  <!-- Quiet checklist card -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <rect x="700" y="56" width="444" height="268" rx="16" fill="#FAF8F3" stroke="#E5E0D8" stroke-width="2"/>
+    <circle cx="1108" cy="92" r="10" fill="#FF453A"/>
+    <text x="736" y="102" font-size="20" fill="#8A8A8A">五类约束，一页对齐</text>
+    <g font-size="23" fill="#1F2328">
+      <text x="736" y="152">✓ 命名　lls- 前缀</text>
+      <text x="736" y="192">✓ 品牌　石墨黑 + 红点</text>
+      <text x="736" y="232">✓ 工程　小步改、每改必测</text>
+      <text x="736" y="272">✓ 写作　说人话、给数字</text>
+      <text x="736" y="312">✓ 事实　没依据就删掉</text>
+    </g>
+  </g>
+</svg>
